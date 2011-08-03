@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ae:configurations xmlns="http://agavi.org/agavi/config/parts/autoload/1.0" xmlns:ae="http://agavi.org/agavi/config/global/envelope/1.0">
+	
+	<ae:configuration>
+		
+		<autoload name="PerformanceCheckSampleSystemBaseAction">%core.module_dir%/System/lib/action/PerformanceCheckSampleSystemBaseAction.class.php</autoload>
+		<autoload name="PerformanceCheckSampleSystemBaseModel">%core.module_dir%/System/lib/model/PerformanceCheckSampleSystemBaseModel.class.php</autoload>
+		<autoload name="PerformanceCheckSampleSystemBaseView">%core.module_dir%/System/lib/view/PerformanceCheckSampleSystemBaseView.class.php</autoload>
+		
+	</ae:configuration>
+	
+</ae:configurations>

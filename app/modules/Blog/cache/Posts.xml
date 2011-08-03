@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ae:configurations xmlns:ae="http://agavi.org/agavi/config/global/envelope/1.0" xmlns="http://agavi.org/agavi/config/parts/caching/1.0">
+	
+	<ae:configuration>
+		
+		<caching lifetime="1 minutes" enabled="true">
+			<groups>
+				<group>blog-post</group>
+				<group source="request_data">id</group>
+			</groups>
+			<views>
+				<view>Success</view>
+			</views>
+			
+			<output_types>
+				<output_type name="html">
+					<layer name="content" />
+					<template_variable>_title</template_variable>
+				</output_type>
+			</output_types>
+		</caching>
+		
+	</ae:configuration>
+	
+</ae:configurations>

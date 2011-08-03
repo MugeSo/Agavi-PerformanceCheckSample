@@ -1,0 +1,17 @@
+INATALL
+=======
+
+1. Install Agavi
+----------------
+ $ pear channel-discover pear.agavi.org
+ $ pear config-set auto_discover 1
+ $ pear install -a agavi/agavi
+
+2. Create pub
+--------------
+Create pub dir as document root with command:
+ $ agavi public-create
+  ...
+ Name of the environment to bootstrap in dispatcher scripts [development]: production
+  ...
+
