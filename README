@@ -13,5 +13,5 @@ Create pub dir as document root with command:
  $ agavi public-create
   ...
  Name of the environment to bootstrap in dispatcher scripts [development]: production
+ Should an Apache .htaccess file with rewrite rules be generated (y/n) [n]? y
   ...
-
